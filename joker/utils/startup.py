@@ -139,7 +139,7 @@ async def mybot():
             await asyncio.sleep(1)
             await l313l.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await l313l.send_message("@BotFather", جمدان سورس كرستين)
+            await l313l.send_message("@BotFather", perf) 
             await asyncio.sleep(1)
             await l313l.send_message("@BotFather", "/setuserpic")
             await asyncio.sleep(1)
