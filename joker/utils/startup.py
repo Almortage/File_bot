@@ -145,7 +145,7 @@ async def mybot():
             await asyncio.sleep(1)
             await l313l.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "l313l/razan/resources/start/CR.JPEG")
+            await .send_file("@BotFather", "l313l/razan/resources/start/CR.JPEG")
             await asyncio.sleep(3)
             await l313l.send_message("@BotFather", "/setabouttext")
             await asyncio.sleep(1)
