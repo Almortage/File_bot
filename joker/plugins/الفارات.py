@@ -1256,7 +1256,7 @@ def resize_image(image):
 
 
 # Copyright (C) 2022 Zed-Thon . All Rights Reserved
-@l313l.ar_cmd(pattern="اوامر الفارات")
+@l313l.ar_cmd(pattern="فارات ")
 async def cmd(zelzallll):
     await edit_or_reply(zelzallll, ZelzalVP_cmd)
 
