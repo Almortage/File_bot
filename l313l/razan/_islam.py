@@ -1,8 +1,8 @@
 #from here loaded islamic 
 
-from joker.Config import roza_config 
+from joker.Config import avatar_config 
 
-razan = [
+avatar = [
 """
 #اذكار_الصباح
 «أعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ»
