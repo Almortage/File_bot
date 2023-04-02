@@ -1,6 +1,6 @@
 
 from joker import bot, l313l
-#By Source aljoker @source_av
+#By Source AVATAR @source_av
 from telethon import events, functions, types, Button
 from datetime import timedelta
 import asyncio
