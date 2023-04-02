@@ -36,9 +36,9 @@ async def start(event):
             message=f"اهـلا يا مالكـي انـه انـا {bot_id}, مسـاعدك ! \nمـاذا تريـد ان تفعـل اليـوم ?",
             buttons=[
                                      
-                                     [Button.url("المطـور زين🔗", "https://t.me/iiqllll"), Button.inline(
-                                         "اوامر الزغـرفة", data="rozzag")],
-                                     [Button.url("الاختراق بوت 🔗", "https://t.me/cristin_so/194"), Button.inline(
+                                     [Button.url("المطـور مرتجل", "https://t.me/ALMORTAGEL_12"), Button.inline(
+                                         "اوامر الزغـرفة", data="avatarag")],
+                                     [Button.url("الاختراق بوت 🔗", "https://t.me/source_av/194"), Button.inline(
                                          "اوامر الفارات", data="setting")],
                                          
                                  ])
@@ -52,8 +52,8 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("تنـصيب سورس كرستين  🐍", data="deploy")],
-                [Button.url("المطور زين ❓", "https://t.me/iiqllll")],
+                [custom.Button.inline("تنـصيب سورس افاتار  🐍", data="deploy")],
+                [Button.url("المطور مرتجل ❓", "https://t.me/ALMORTAGEL_12")],
             ],
         )
 
@@ -67,13 +67,13 @@ async def help(event):
             event.chat_id,
             message="**لتـنصيب البـوت الخاص بك اتبـع الخطـوات في الاسفـل وحاول واذا لم تستطيع تفضل الى مجموعة المساعدة ليساعدوك 🧸♥**.",
             buttons=[
-                [Button.url("شرح التنصيب 📺", "https://t.me/S_EG_P/2348")],
-                [Button.url(" اصحاب كوكب cr  ❓", "https://t.me/CR_CR_CR")],
+                [Button.url("شرح التنصيب 📺", "https://t.me/QQ_XxXxX/38")],
+                [Button.url(" سورس افاتار   ❓", "https://t.me/source_av")],
             ],
         )
 
 
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozzag"))) 
+@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"avatarag"))) 
 async def settings(event):
     if event.sender_id == bot.uid:
         await event.delete()
@@ -90,7 +90,7 @@ async def settings(event):
                                      "اسماء القنوات َِ🛹", data="chanlan")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 
@@ -107,10 +107,10 @@ async def settings(event):  #    قـسـم  الزغرفـة جمـثـون
                                       Button.inline(
                                          "اسماء بنات َِ🛹", data="RR7PP"),
                                       Button.inline(
-                                         "║ رجوع ║ ⁦⁩", data="rozzag")]
+                                         "║ رجوع ║ ⁦⁩", data="avatarag")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"razan")))  
@@ -128,7 +128,7 @@ async def settings(event):  #    قـسـم  الزغرفـة لأسـماء ا�
                                          "║ رجوع ║", data="rozname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 
@@ -173,7 +173,7 @@ async def settings(event): #    قـسـم  الزغرفـة لأسـماء ال
                                          "║ رجوع ║", data="rozname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 # شنو تـدور  :)
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"RR7PP1")))
@@ -209,12 +209,12 @@ async def settings(event):  #    قـسـم  البـايو 1
                                      [Button.inline(
                                          " السابق ⫸", data="rozpio5"),
                                       Button.inline(
-                                         "║ خروج ║ ⁦⁩", data="rozzag"),
+                                         "║ خروج ║ ⁦⁩", data="avatarag"),
                                       Button.inline(
                                          "⫷ التالي ", data="rozpio2")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozpio2"))) 
@@ -227,12 +227,12 @@ async def settings(event): #    قـسـم  البـايو 2
                                      [Button.inline(
                                          "السابق ⫸ ", data="rozpio1"),
                                       Button.inline(
-                                         "║ خروج ║ ⁦⁩", data="rozzag"),
+                                         "║ خروج ║ ⁦⁩", data="avatarag"),
                                       Button.inline(
                                          "⫷ التالي", data="rozpio3")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozpio3"))) 
@@ -245,12 +245,12 @@ async def settings(event): #    قـسـم  البـايو 3
                                      [Button.inline(
                                          "السابق ⫸ ", data="rozpio2"),
                                       Button.inline(
-                                         "║ خروج ║ ⁦⁩", data="rozzag"),
+                                         "║ خروج ║ ⁦⁩", data="avatarag"),
                                       Button.inline(
                                          "⫷ التالي", data="rozpio4")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozpio4"))) 
@@ -263,12 +263,12 @@ async def settings(event): #    قـسـم  البـايو 4
                                      [Button.inline(
                                          "السابق ⫸ ", data="rozpio3"),
                                       Button.inline(
-                                         "║ خروج ║ ⁦⁩", data="rozzag"),
+                                         "║ خروج ║ ⁦⁩", data="avatarag"),
                                       Button.inline(
                                          "⫷ التالي", data="rozpio5")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozpio5"))) 
@@ -281,12 +281,12 @@ async def settings(event):#    قـسـم  البـايو 5
                                      [Button.inline(
                                          "السابق ⫸ ", data="rozpio4"),
                                       Button.inline(
-                                         "║ خروج ║⁦⁩", data="rozzag"),
+                                         "║ خروج ║⁦⁩", data="avatarag"),
                                       Button.inline(
                                          "⫷ التالي", data="rozpio1")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozmonth")))  
 async def settings(event): #    قـسم الـمواليـد و الأشـهر
@@ -300,10 +300,10 @@ async def settings(event): #    قـسم الـمواليـد و الأشـهر
                                       Button.inline(
                                          "الاشهر َِ🛹", data="months")],
                                      [Button.inline(
-                                         "║ رجوع ║", data="rozzag")]
+                                         "║ رجوع ║", data="avatarag")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @S_EG_P", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @source_av", alert=True)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"months")))  
@@ -312,7 +312,7 @@ async def settings(event):#    قـسم  الأشـهر
         await event.delete()
         await tgbot.send_message(event.chat_id, 
                                  JMTHSH, 
-                                 buttons=[[Button.inline("║ رجوع ║", data="rozzag")]
+                                 buttons=[[Button.inline("║ رجوع ║", data="avatarag")]
                                  ])
     else:
         await event.answer("انت لا تستطيع استخدام هذا البوت.", alert=True)
@@ -335,7 +335,7 @@ async def settings(event):  # انتهـى  :)  اذا تخـمط تـذكر ت�
         await event.delete()
         await tgbot.send_message(event.chat_id, 
                                  CHANLAN, 
-                                 buttons=[[Button.inline("║ رجوع ║", data="rozzag")]
+                                 buttons=[[Button.inline("║ رجوع ║", data="avatarag")]
                                  ])
     else:
         await event.answer("انت لا تستطيع استخدام هذا البوت.", alert=True)
@@ -387,7 +387,7 @@ async def varssett(event):
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين  @S_EG_P""",
+اوامر فارات سورس افاتار  @source_av""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -412,7 +412,7 @@ async def varssett(event):
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -432,7 +432,7 @@ async def varssett(event):
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -461,7 +461,7 @@ async def varssett(event):
 **ملاحظة: يجب اني تقوم بوضع الزخرفة بالترتيب التالي:**
 0123456789
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -481,7 +481,7 @@ async def varssett(event):
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -519,7 +519,7 @@ async def varssett(event):
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -538,7 +538,7 @@ async def varssett(event):
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -555,11 +555,11 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عندما يكون امر الحماية شغال ويراسلك احد
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.اضف كليشة الحماية `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @q_k_2 
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @av_klesh 
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -580,7 +580,7 @@ async def varssett(event):
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -615,7 +615,7 @@ async def varssett(event):
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -632,11 +632,11 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عند ارسال  امر  `.فحص`
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.اضف كليشة الفحص `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @q_k_2 
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @av_klesh 
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -656,7 +656,7 @@ async def varssett(event):
 
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @S_EG_P""",
+اوامر فارات سورس افاتار @source_av""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
